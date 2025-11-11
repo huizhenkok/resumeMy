@@ -1,0 +1,87 @@
+/* 基本页面设置 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 页面背景色（浅灰） */
+}
+
+/* 头部 (深色背景, 白色文字, 居中) */
+header {
+    background-color: #2c3e50; /* 图片中的深蓝色/灰色 */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* 个人照片 (圆形, 白色边框) */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* 这会使图片变成圆形 */
+    border: 4px solid white;
+    object-fit: cover; /* 防止图片变形 */
+}
+
+header h1 {
+    margin: 15px 0 5px 0;
+}
+
+header p {
+    margin: 0 0 15px 0;
+    font-size: 1em;
+    color: #bdc3c7; /* 稍暗的白色 (用于 Matric Number) */
+}
+
+/* 导航链接 */
+nav a {
+    color: #ecf0f1; /* 亮白色 */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 主要内容区域 (白色卡片) */
+main {
+    max-width: 900px;
+    margin: 30px auto; /* 居中显示 */
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 轻微的阴影 */
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    color: #2c3e50; /* 标题颜色与头部匹配 */
+    border-bottom: 2px solid #f4f4f4; /* 浅灰色下划线 */
+    padding-bottom: 10px;
+}
+
+/* 列表样式 (用于 Education 和 Key Skills) */
+ul {
+    list-style-type: none; /* 移除默认的圆点 */
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* 底部 Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e; /* 深色背景 */
+    color: white;
+    margin-top: 30px;
+}
